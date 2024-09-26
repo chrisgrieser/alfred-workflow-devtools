@@ -6,12 +6,25 @@
 
 Various utilities and quality-of-life-features for Alfred workflow developers
 
-- [ ] Showcase image to be inserted here.
+<img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/d995f000-40e4-4b72-a290-3214879dfbd8">
 
 ## Usage
-- ((Do this)) via the keyword `xxx`.
-- Press the [hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/)
-  to ((do this))
+- The workflow offers various
+  [hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/):
+	+ Go to the last workflow in the Alfred Preferences.
+	+ Reload the current workflow, and flush all caches related to it.
+	+ Reveal the current workflow in the macOS Finder.
+	+ Another hotkey does the opposite and reveals the workflow corresponding to
+	  the current Finder window in the Alfred Preferences.
+	+ Check for unused files of current workflow.
+	+ Copy the workflows absolute path to the clipboard.
+- Show a menu of some more utilities via the keyword `aa`. Those include:
+	+ Searching the Alfred workflow development docs.
+	+ Restarting Alfred (and Alfred Preferences).
+	+ Updating the Alfred Preferences.app icon to use an icon using the macOS
+	  Big Sure icon shape.
+	+ Open the Alfred data folder, or the Alfred cache folder.
+	+ Change the font size of the Alfred debugger window.
 
 ## Installation
 [➡️ Download the latest release.](https://github.com/chrisgrieser/alfred-workflow-devtools/releases/latest)
