@@ -17,6 +17,7 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 	+ Another hotkey does the opposite and reveals the workflow corresponding to
 	  the current Finder window in the Alfred Preferences.
 	+ Copy the workflows absolute path to the clipboard.
+	+ Copy the name of an Alfred workflow variable for the current workflow.
 - Searching the Alfred workflow development docs via the keyword `adoc`.
 	+ <kbd>⏎</kbd> Open in the browser.
 	+ <kbd>⌥⏎</kbd> Copy URL.
