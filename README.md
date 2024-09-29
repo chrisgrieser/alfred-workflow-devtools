@@ -18,8 +18,10 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 	  the current Finder window in the Alfred Preferences.
 	+ Check for unused files of current workflow.
 	+ Copy the workflows absolute path to the clipboard.
+- Searching the Alfred workflow development docs via the keyword `adoc`.
+	+ <kbd>⏎</kbd> Open in the browser.
+	+ <kbd>⌥⏎</kbd> Copy URL.
 - Show a menu of some more utilities via the keyword `aa`. Those include:
-	+ Searching the Alfred workflow development docs.
 	+ Restarting Alfred (and Alfred Preferences).
 	+ Updating the Alfred Preferences.app icon to use an icon using the macOS
 	  Big Sure icon shape.
