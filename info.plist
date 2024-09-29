@@ -1065,7 +1065,7 @@ disown</string>
 				<key>items</key>
 				<string>[{"title":"📊 Open data folder","arg":"data_folder"},{"title":"🧹 Open cache folder","arg":"cache_folder"},{"title":"⚙️ Update \"Alfred Preferences.app\" icon","arg":"pref_icon"},{"title":"❗️ Restart Alfred","arg":"restart"},{"title":"🔤 Apply debugger font size","arg":"apply_debugger_fontsize"}]</string>
 				<key>keyword</key>
-				<string>{var:alfred_keyword}</string>
+				<string>{var:menu_keyword}</string>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>runningsubtext</key>
@@ -1145,7 +1145,7 @@ disown</string>
 - Searching the Alfred workflow development docs via the keyword `adoc`.
 	+ &lt;kbd&gt;⏎&lt;/kbd&gt; Open in the browser.
 	+ &lt;kbd&gt;⌥⏎&lt;/kbd&gt; Copy URL.
-- Show a menu of some more utilities via the keyword `aa`. Those include:
+- Show a menu of some more utilities via the keyword `:alfred`. Those include:
 	+ Restarting Alfred (and Alfred Preferences).
 	+ Updating the Alfred Preferences.app icon to use an icon using the macOS
 	  Big Sure icon shape.
@@ -1440,27 +1440,6 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>awd</string>
-				<key>placeholder</key>
-				<string></string>
-				<key>required</key>
-				<true/>
-				<key>trim</key>
-				<true/>
-			</dict>
-			<key>description</key>
-			<string>menu of commands</string>
-			<key>label</key>
-			<string>Keywords</string>
-			<key>type</key>
-			<string>textfield</string>
-			<key>variable</key>
-			<string>alfred_keyword</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
 				<string>adoc</string>
 				<key>placeholder</key>
 				<string>adoc</string>
@@ -1472,11 +1451,32 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 			<key>description</key>
 			<string>Alfred workflow development docs</string>
 			<key>label</key>
-			<string></string>
+			<string>Keywords</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
 			<string>keyword_docs</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>awd</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>menu of commands</string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>menu_keyword</string>
 		</dict>
 		<dict>
 			<key>config</key>

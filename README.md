@@ -21,7 +21,7 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 - Searching the Alfred workflow development docs via the keyword `adoc`.
 	+ <kbd>⏎</kbd> Open in the browser.
 	+ <kbd>⌥⏎</kbd> Copy URL.
-- Show a menu of some more utilities via the keyword `aa`. Those include:
+- Show a menu of some more utilities via the keyword `:alfred`. Those include:
 	+ Restarting Alfred (and Alfred Preferences).
 	+ Updating the Alfred Preferences.app icon to use an icon using the macOS
 	  Big Sure icon shape.
