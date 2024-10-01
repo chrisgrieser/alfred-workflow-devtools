@@ -702,7 +702,7 @@
 				<key>hotkey</key>
 				<integer>9</integer>
 				<key>hotmod</key>
-				<integer>262144</integer>
+				<integer>524288</integer>
 				<key>hotstring</key>
 				<string>V</string>
 				<key>leftcursor</key>

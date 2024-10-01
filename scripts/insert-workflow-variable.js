@@ -28,7 +28,6 @@ function camelCaseMatch(str) {
 const scriptEnvironment = [
 	"alfred_preferences",
 	"alfred_preferences_localhash",
-	"alfred_theme_subtext",
 	"alfred_version",
 	"alfred_version_build",
 	"alfred_workflow_bundleid",
@@ -56,7 +55,7 @@ function run() {
 			/** @type {AlfredItem} */
 			const alfredItem = {
 				title: variable,
-				subtitle: type + "  ·  Workflow Configuration",
+				subtitle: type,
 				arg: output,
 				uid: variable, // only remember these
 				match: camelCaseMatch(variable),
@@ -71,8 +70,8 @@ function run() {
 		/** @type {AlfredItem} */
 		const alfredItem = {
 			title: varname,
-			subtitle: "Script Environment",
 			arg: output,
+			icon: { path: "Alfred.icns" }, // differentiate script env vars from workflow vars
 			match: camelCaseMatch(varname),
 		};
 		return alfredItem;
