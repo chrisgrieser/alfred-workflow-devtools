@@ -1193,7 +1193,7 @@ disown</string>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"📊 Open data folder","arg":"data_folder","subtitle":"for current workflow"},{"title":"🧹 Open cache folder","arg":"cache_folder","subtitle":"for current workflow"},{"title":"🔬 Check for unused files","arg":"unused_files","subtitle":"in current workflow, check for unused files, and remove unused uid-pngs"},{"title":"❗️ Restart Alfred","arg":"restart","subtitle":"and Alfred Preferences.app, if open"},{"title":"🔤 Apply debugger font size","arg":"apply_debugger_fontsize","subtitle":"from the workflow configuration"},{"title":"⚙️ Update \"Alfred Preferences.app\" icon","arg":"pref_icon","subtitle":""}]</string>
+				<string>[{"title":"📊 Open data folder","arg":"data_folder","subtitle":"for current workflow"},{"title":"🧹 Open cache folder","arg":"cache_folder","subtitle":"for current workflow"},{"title":"🔬 Check for unused files","arg":"unused_files","subtitle":"in current workflow, check for unused files, and remove unused UID-pngs"},{"title":"❗️ Restart Alfred","arg":"restart","subtitle":"and Alfred Preferences.app, if open"},{"title":"🔤 Apply debugger font size","arg":"apply_debugger_fontsize","subtitle":"from the workflow configuration"},{"title":"⚙️ Update \"Alfred Preferences.app\" icon","arg":"pref_icon","subtitle":""}]</string>
 				<key>keyword</key>
 				<string>{var:menu_keyword}</string>
 				<key>matchmode</key>
@@ -1300,7 +1300,7 @@ disown</string>
 	+ &lt;kbd&gt;⌥⏎&lt;/kbd&gt; Copy URL.
 - Show a menu of some more utilities via the keyword `:alfred`. Those include:
 	+ Restarting Alfred (and Alfred Preferences).
-	+ Check for unused files of current workflow, and remove unused uid-png
+	+ Check for unused files of current workflow, and remove unused UID `.png`
 	  files.
 	+ Updating the Alfred Preferences.app icon to use an icon using the macOS
 	  Big Sure icon shape.
