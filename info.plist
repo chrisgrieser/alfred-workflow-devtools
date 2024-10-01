@@ -1300,7 +1300,8 @@ disown</string>
 	+ &lt;kbd&gt;⌥⏎&lt;/kbd&gt; Copy URL.
 - Show a menu of some more utilities via the keyword `:alfred`. Those include:
 	+ Restarting Alfred (and Alfred Preferences).
-	+ Check for unused files of current workflow.
+	+ Check for unused files of current workflow, and remove unused uid-png
+	  files.
 	+ Updating the Alfred Preferences.app icon to use an icon using the macOS
 	  Big Sure icon shape.
 	+ Open the Alfred data folder, or the Alfred cache folder.

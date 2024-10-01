@@ -22,7 +22,8 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 	+ <kbd>⏎</kbd> Open in the browser.
 	+ <kbd>⌥⏎</kbd> Copy URL.
 - Show a menu of some more utilities via the keyword `:alfred`. Those include:
-	+ Check for unused files of current workflow.
+	+ Check for unused files of current workflow, and remove unused uid-png
+	  files.
 	+ Restarting Alfred (and Alfred Preferences).
 	+ Updating the Alfred Preferences.app icon to use an icon using the macOS
 	  Big Sure icon shape.
