@@ -26,7 +26,7 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 	  files.
 	+ Restarting Alfred (and Alfred Preferences).
 	+ Updating the Alfred Preferences.app icon to use an icon using the macOS
-	  Big Sure icon shape.
+	  Big Sur icon shape.
 	+ Open the Alfred data folder, or the Alfred cache folder.
 	+ Change the font size of the Alfred debugger window.
 
