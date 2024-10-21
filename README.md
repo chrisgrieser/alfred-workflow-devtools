@@ -6,7 +6,7 @@
 
 Various utilities and quality-of-life-features for Alfred workflow developers
 
-<img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/d995f000-40e4-4b72-a290-3214879dfbd8">
+<img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/8df37436-f886-4607-aaa8-68ed90d0bbbc">
 
 ## Usage
 - The workflow offers various
@@ -21,7 +21,7 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 - Searching the Alfred workflow development docs via the keyword `adoc`.
 	+ <kbd>⏎</kbd> Open in the browser.
 	+ <kbd>⌥⏎</kbd> Copy URL.
-- Show a menu of some more utilities via the keyword `:alfred`. Those include:
+- Show a menu of some more utilities via the keyword `awd`. Those include:
 	+ Check for unused files of current workflow, and remove unused UID `.png`
 	  files.
 	+ Restarting Alfred (and Alfred Preferences).
