@@ -1,7 +1,8 @@
 <!-- LTeX: enabled=false -->
 # Alfred workflow devtools
 <!-- LTeX: enabled=true -->
-![Download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-workflow-devtools/total?label=Total%20Downloads&style=plastic)
+![GitHub Downloads](https://img.shields.io/github/downloads/chrisgrieser/alfred-workflow-devtools/total?label=GitHub%20Downloads&style=plastic)
+![Alfred Gallery downloads](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchrisgrieser%2F.config%2Frefs%2Fheads%2Fmain%2FAlfred.alfredpreferences%2Falfred-workflow-download-count.yaml&style=plastic&logo=alfred&label=Gallery%20Downloads&color=%235C1F87&query=alfred-workflow-devtools)
 ![Version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-workflow-devtools?label=Latest%20Release&style=plastic)
 
 Various utilities and quality-of-life-features for Alfred workflow developers
@@ -33,8 +34,7 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 ## Installation
 [➡️ Download the latest release.](https://github.com/chrisgrieser/alfred-workflow-devtools/releases/latest)
 
-The workflow auto-updates via Alfred's
-workflow-update mechanism.
+The workflow auto-updates via Alfred's workflow-update mechanism.
 
 ## About the developer
 In my day job, I am a sociologist studying the social mechanisms underlying the
@@ -47,11 +47,6 @@ compatibility. If you are interested in this subject, feel free to get in touch.
 - [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
 - [LinkedIn](https://www.linkedin.com/in/christopher-grieser-ba693b17a/)
 
-<a href='https://ko-fi.com/Y8Y86SQ91' target='_blank'>
-	<img
-	height='36'
-	style='border:0px;height:36px;'
-	src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3'
-	border='0'
-	alt='Buy Me a Coffee at ko-fi.com'
-/></a>
+<a href='https://ko-fi.com/Y8Y86SQ91' target='_blank'> <img height='36'
+style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3'
+border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
