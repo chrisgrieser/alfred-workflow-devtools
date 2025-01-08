@@ -14,36 +14,35 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 	+ Go to the last workflow in the Alfred Preferences.
 	+ Reload the current workflow, and flush all caches related to it.
 	+ Reveal the current workflow in the macOS Finder.
-	+ Another hotkey does the opposite and reveals the workflow corresponding to
+	+ Reveal the workflow corresponding to
 	  the current Finder window in the Alfred Preferences.
 	+ Copy the workflows absolute path to the clipboard.
 	+ Copy the name of an Alfred workflow variable for the current workflow.
-- Searching the Alfred workflow development docs via the keyword `adoc`.
+- Search the Alfred workflow development docs via the keyword `adoc`.
 	+ <kbd>⏎</kbd> Open in the browser.
 	+ <kbd>⌥⏎</kbd> Copy URL.
 - Show a menu of some more utilities via the keyword `awd`. Those include:
 	+ Check for unused files of current workflow, and remove unused UID `.png`
 	  files.
-	+ Restarting Alfred (and Alfred Preferences).
-	+ Updating the Alfred Preferences.app icon to use an icon using the macOS
+	+ Restart Alfred (and Alfred Preferences).
+	+ Update Alfred Preferences.app to use an icon with the macOS
 	  Big Sur icon shape.
-	+ Open the Alfred data folder, or the Alfred cache folder.
+	+ Open the Alfred data or cache folder.
 	+ Change the font size of the Alfred debugger window.
 
 ## Installation
 [➡️ Download the latest release.](https://github.com/chrisgrieser/alfred-workflow-devtools/releases/latest)
 
-When admitted to the Alfred Gallery, the workflow auto-updates via Alfred's
+The workflow auto-updates via Alfred's
 workflow-update mechanism.
 
-<!-- vale Google.FirstPerson = NO -->
 ## About the developer
 In my day job, I am a sociologist studying the social mechanisms underlying the
 digital economy. For my PhD project, I investigate the governance of the app
 economy and how software ecosystems manage the tension between innovation and
 compatibility. If you are interested in this subject, feel free to get in touch.
 
-- [Academic Website](https://chris-grieser.de/)
+- [Website](https://chris-grieser.de/)
 - [Mastodon](https://pkm.social/@pseudometa)
 - [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
 - [LinkedIn](https://www.linkedin.com/in/christopher-grieser-ba693b17a/)
