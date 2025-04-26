@@ -70,7 +70,7 @@ function run() {
 	);
 
 	const scriptEnvVars = scriptEnvironment.map((varr) => {
-		const output = alfredPrefsFront ? `{var:${varr.name}}` : varr.name;
+		const output = alfredPrefsFront ? `{const:${varr.name}}` : varr.name;
 
 		/** @type {AlfredItem} */
 		const alfredItem = {
