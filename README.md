@@ -17,8 +17,8 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 	+ Reveal the current workflow in the macOS Finder.
 	+ Reveal the workflow corresponding to
 	  the current Finder window in the Alfred Preferences.
+	+ Paste the name of an Alfred workflow variable for the current workflow.
 	+ Copy the workflows absolute path to the clipboard.
-	+ Copy the name of an Alfred workflow variable for the current workflow.
 - Search the Alfred workflow development docs via the keyword `adoc`.
 	+ <kbd>⏎</kbd> Open in the browser.
 	+ <kbd>⌥⏎</kbd> Copy URL.
