@@ -31,6 +31,7 @@ const scriptEnvironment = [
 	{ name: "alfred_workflow_name" },
 	{ name: "alfred_theme" },
 	{ name: "alfred_theme_background" },
+	// biome-ignore format: not needed
 	{ name: "alfred_theme_subtext", desc: "The subtext mode the user has selected in the Appearance preferences." },
 	{ name: "alfred_workflow_description" },
 	{ name: "alfred_preferences", desc: "The location of Alfred.alfredpreferences" },
@@ -54,13 +55,21 @@ function run() {
 
 	const workflowVars = JSON.parse(app.doShellScript(shellCmd)).map(
 		(/** @type {WorkflowVariable} */ item) => {
-			const { type, variable } = item;
+			const { type, variable, config } = item;
 			const output = alfredPrefsFront ? `{var:${variable}}` : variable;
+
+			const subtitle = [
+				type,
+				config.required ? "[required]" : "",
+				config.default ? `default: ${config.default}` : "",
+			]
+				.filter(Boolean)
+				.join("    ");
 
 			/** @type {AlfredItem} */
 			const alfredItem = {
 				title: variable,
-				subtitle: type,
+				subtitle: subtitle,
 				arg: output,
 				uid: variable, // only remember these
 				match: camelCaseMatch(variable),
