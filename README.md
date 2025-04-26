@@ -1,7 +1,7 @@
 <!-- LTeX: enabled=false -->
 # Alfred workflow devtools
 <!-- LTeX: enabled=true -->
-![GitHub Downloads](https://img.shields.io/github/downloads/chrisgrieser/alfred-workflow-devtools/total?label=GitHub%20Downloads&style=plastic)
+![GitHub downloads](https://img.shields.io/github/downloads/chrisgrieser/alfred-workflow-devtools/total?label=GitHub%20Downloads&style=plastic)
 ![Alfred Gallery downloads](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchrisgrieser%2F.config%2Frefs%2Fheads%2Fmain%2FAlfred.alfredpreferences%2Falfred-workflow-download-count.yaml&style=plastic&logo=alfred&label=Gallery%20Downloads&color=%235C1F87&query=alfred-workflow-devtools)
 ![Version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-workflow-devtools?label=Latest%20Release&style=plastic)
 
@@ -14,9 +14,12 @@ Various utilities and quality-of-life-features for Alfred workflow developers
   [hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/):
 	+ Go to the last workflow in the Alfred Preferences.
 	+ Reload the current workflow, and flush all caches related to it.
-	+ Reveal the current workflow in the macOS Finder.
+	+ Reveal the current workflow in macOS Finder.
 	+ Reveal the workflow corresponding to
 	  the current Finder window in the Alfred Preferences.
+	+ Go to the workflow's directory in the terminal. (Uses the terminal app you
+	  have [configured in Alfred
+	  Preferences](https://www.alfredapp.com/help/features/terminal/).)
 	+ Paste the name of an Alfred workflow variable for the current workflow.
 	+ Copy the workflows absolute path to the clipboard.
 - Search the Alfred workflow development docs via the keyword `adoc`.
@@ -26,8 +29,8 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 	+ Check for unused files of current workflow, and remove unused UID `.png`
 	  files.
 	+ Restart Alfred (and Alfred Preferences).
-	+ Update Alfred Preferences.app to use an icon with the macOS
-	  Big Sur icon shape.
+	+ Update Alfred Preferences.app to use an icon with the macOS Big Sur icon
+	  shape.
 	+ Open the Alfred data or cache folder.
 	+ Change the font size of the Alfred debugger window.
 
