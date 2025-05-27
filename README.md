@@ -21,7 +21,7 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 	  have [configured in Alfred
 	  Preferences](https://www.alfredapp.com/help/features/terminal/).)
 	+ Paste the name of an Alfred workflow variable for the current workflow.
-	+ Copy the workflows absolute path to the clipboard.
+	+ Copy the workflow's absolute path to the clipboard.
 - Search the Alfred workflow development docs via the keyword `adoc`.
 	+ <kbd>⏎</kbd> Open in the browser.
 	+ <kbd>⌥⏎</kbd> Copy URL.
@@ -29,8 +29,7 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 	+ Check for unused files of current workflow, and remove unused UID `.png`
 	  files.
 	+ Restart Alfred (and Alfred Preferences).
-	+ Update Alfred Preferences.app to use an icon with the macOS Big Sur icon
-	  shape.
+	+ Update `Alfred Preferences.app` to use an icon with the macOS icon shape.
 	+ Open the Alfred data or cache folder.
 	+ Change the font size of the Alfred debugger window.
 
