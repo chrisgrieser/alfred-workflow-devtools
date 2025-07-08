@@ -2,7 +2,7 @@
 # Alfred workflow devtools
 <!-- LTeX: enabled=true -->
 ![GitHub downloads](https://img.shields.io/github/downloads/chrisgrieser/alfred-workflow-devtools/total?label=GitHub%20Downloads&style=plastic)
-![Alfred Gallery downloads](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchrisgrieser%2F.config%2Frefs%2Fheads%2Fmain%2FAlfred.alfredpreferences%2Falfred-workflow-download-count.yaml&style=plastic&logo=alfred&label=Gallery%20Downloads&color=%235C1F87&query=alfred-workflow-devtools)
+![Alfred Gallery downloads](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchrisgrieser%2F.config%2Frefs%2Fheads%2Fmain%2FAlfred.alfredpreferences%2Falfred-gallery-downloads.yaml&style=plastic&logo=alfred&label=Gallery%20Downloads&color=%235C1F87&query=workflow-devtools)
 ![Version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-workflow-devtools?label=Latest%20Release&style=plastic)
 
 Various utilities and quality-of-life-features for Alfred workflow developers
