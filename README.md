@@ -13,6 +13,7 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 - The workflow offers various
   [hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/):
 	+ Go to the last workflow in the Alfred Preferences.
+	+ Edit the current workflow's details.
 	+ Reload the current workflow, and flush all caches related to it.
 	+ Reveal the current workflow in macOS Finder.
 	+ Reveal the workflow corresponding to
@@ -37,6 +38,10 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 [➡️ Download the latest release.](https://github.com/chrisgrieser/alfred-workflow-devtools/releases/latest)
 
 The workflow auto-updates via Alfred's workflow-update mechanism.
+
+## Credits
+`Edit workflow details` snippet by
+[April-June-August](https://github.com/April-June-August/Alfred--Edit-Workflow-Details).
 
 ## About the developer
 In my day job, I am a sociologist studying the social mechanisms underlying the
