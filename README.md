@@ -1,6 +1,4 @@
-<!-- LTeX: enabled=false -->
 # Alfred workflow devtools
-<!-- LTeX: enabled=true -->
 ![GitHub downloads](https://img.shields.io/github/downloads/chrisgrieser/alfred-workflow-devtools/total?label=GitHub%20Downloads&style=plastic)
 ![Alfred Gallery downloads](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchrisgrieser%2F.config%2Frefs%2Fheads%2Fmain%2FAlfred.alfredpreferences%2Falfred-gallery-downloads.yaml&style=plastic&logo=alfred&label=Gallery%20Downloads&color=%235C1F87&query=workflow-devtools)
 ![Version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-workflow-devtools?label=Latest%20Release&style=plastic)
@@ -14,6 +12,7 @@ Various utilities and quality-of-life-features for Alfred workflow developers
   [hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/):
 	+ Go to the last workflow in the Alfred Preferences.
 	+ Edit the current workflow's details.
+	+ Enable/disable the current workflow.
 	+ Reload the current workflow, and flush all caches related to it.
 	+ Reveal the current workflow in macOS Finder.
 	+ Reveal the workflow corresponding to
@@ -40,7 +39,7 @@ Various utilities and quality-of-life-features for Alfred workflow developers
 The workflow auto-updates via Alfred's workflow-update mechanism.
 
 ## Credits
-`Edit workflow details` snippet by
+Code for interacting with the workflow context menu by
 [April-June-August](https://github.com/April-June-August/Alfred--Edit-Workflow-Details).
 
 ## About the developer
